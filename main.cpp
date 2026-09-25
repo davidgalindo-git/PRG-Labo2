@@ -23,4 +23,9 @@ int main() {
     // 2.2 calcul de L2
     const int l2 = sqrt(pow(dx,2)+pow(l3,2));
 
+    // 3. calcul du temps total nécessaire
+    // 3.1 calcul du temps sur la route
+    const int t1 = l1/s1;
+
+
 }
