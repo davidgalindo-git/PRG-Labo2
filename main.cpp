@@ -30,4 +30,7 @@ int main() {
     const int t2 = l2/s2;
     // 3.3 calcul du temps total
     const int total = t1 + t2;
+
+    // 4. affichage du résultat
+    std::cout<<total;
 }
