@@ -19,17 +19,17 @@ int main() {
 
     // 2. calcul de L2
     // 2.1 calcul de L3 (distance verticale de L2)
-    const int l3 = dy-l1;
+    const double l3 = dy-l1;
     // 2.2 calcul de L2
-    const int l2 = sqrt(pow(dx,2)+pow(l3,2));
+    const double l2 = sqrt(pow(dx,2)+pow(l3,2));
 
     // 3. calcul du temps total nécessaire
     // 3.1 calcul du temps sur la route
-    const int t1 = l1/s1;
+    const double t1 = l1/s1;
     // 3.2 calcul du temps sur le terrain rocheaux
-    const int t2 = l2/s2;
+    const double t2 = l2/s2;
     // 3.3 calcul du temps total
-    const int total = t1 + t2;
+    const double total = t1 + t2;
 
     // 4. affichage du résultat
     std::cout << "Si le robot parcourt " << l1 << "km sur la route,\n"
