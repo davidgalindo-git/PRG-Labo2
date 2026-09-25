@@ -28,5 +28,6 @@ int main() {
     const int t1 = l1/s1;
     // 3.2 calcul du temps sur le terrain rocheaux
     const int t2 = l2/s2;
-   
+    // 3.3 calcul du temps total
+    const int total = t1 + t2;
 }
