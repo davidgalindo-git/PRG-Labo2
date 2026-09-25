@@ -20,5 +20,7 @@ int main() {
     // 2. calcul de L2
     // 2.1 calcul de L3 (distance verticale de L2)
     const int l3 = dy-l1;
+    // 2.2 calcul de L2
+    const int l2 = sqrt(pow(dx,2)+pow(l3,2));
 
 }
