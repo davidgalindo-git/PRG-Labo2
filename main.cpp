@@ -10,6 +10,11 @@
 
 
 int main() {
-
+    // 1. initiation des constantes
+    const double dx=3.;
+    const double dy=10.;
+    const double s1=5.;
+    const double s2=2.;
+    const double l1=6.;
 
 }
