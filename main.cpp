@@ -32,5 +32,8 @@ int main() {
     const int total = t1 + t2;
 
     // 4. affichage du résultat
-    std::cout<< "Si le robot parcourt " << l1 << "km sur la route, alors il devra parcourir "<<l2<<"km sur le terrain rocheux, ce qui lui prendra en tout " <<total<<"heures.";
+    std::cout << "Si le robot parcourt " << l1 << "km sur la route,\n"
+    << "alors il devra parcourir " << l2 << "km sur le terrain rocheux,\n"
+    << "afin d'atteindre son objectif,\n"
+    << "ce qui lui prendra en tout " << total << " heures.";
 }
