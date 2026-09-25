@@ -26,6 +26,7 @@ int main() {
     // 3. calcul du temps total nécessaire
     // 3.1 calcul du temps sur la route
     const int t1 = l1/s1;
-
-
+    // 3.2 calcul du temps sur le terrain rocheaux
+    const int t2 = l2/s2;
+   
 }
