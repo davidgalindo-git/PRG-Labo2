@@ -17,4 +17,8 @@ int main() {
     const double s2=2.;
     const double l1=6.;
 
+    // 2. calcul de L2
+    // 2.1 calcul de L3 (distance verticale de L2)
+    const int l3 = dy-l1;
+
 }
